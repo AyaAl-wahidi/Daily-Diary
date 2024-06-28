@@ -1,10 +1,12 @@
-﻿namespace Daily_Diary
+﻿using System;
+
+namespace DiaryManager
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DailyDiary.Run();
         }
     }
 }
